@@ -52,7 +52,7 @@ if ($result->num_rows > 0) {
                             </div>
                             <div class="flex justify-end gap-2 mt-2">
                                 <a href='edit-video.php?id=<?= $row["video_id"] ?>' class="btn btn-sm btn-active btn-warning">edit</a>
-                                <form method="post" action="delete-video.php>
+                                <form method="post" action="delete-video.php">
                                     <input type="hidden" name="video_id" value="<?= $row["video_id"] ?>">
                                         <button type="submit" class="btn btn-sm btn-active btn-error">delete</button>
                                                 </form>
